@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- description is what appears on google when people are looking for our website -->
+    <meta name="description" content="An easy to use workout planner" />
+    <!-- keywords are the keywords that people will search for to find our website -->
+    <meta name="keywords" content="Workout Planner, workout, workout planner" />
+    <title>My Dashboard</title>
+  </head>
+  <body>
+    <!-- Turn this into a navigation bar -->
+    <ul>
+      <!-- Put logo as home button -->
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="pages/dashboard.html">Dashboard</a></li>
+      <li><a href="pages/create.html">Create a Plan</a></li>
+      <li><a href="pages/stats.html">My Stats</a></li>
+    </ul>
+    <section id="week-stats">
+      <h1>This Week's Stats</h1>
+      <div class="stats-container">
+        <div class="stat-item">
+          <h2>Total Workouts</h2>
+          <p>5</p>
+          <!-- Placeholder value -->
+        </div>
+        <div class="stat-item">
+          <h2>Time Spent Working Out</h2>
+          <p>4 hours</p>
+          <!-- Placeholder value -->
+        </div>
+        <div class="stat-item">
+          <h2>Calories Burned</h2>
+          <p>2,300 kcal</p>
+          <!-- Placeholder value -->
+        </div>
+        <div class="stat-item">
+          <h2>Distance Ran, Biked, Swam</h2>
+          <p>15 miles, 10 miles, 2,000 yards</p>
+          <!-- Placeholder value -->
+        </div>
+      </div>
+    </section>
+    <h3>Workouts this week</h3>
+    <!-- Calendar view of workouts -->
+    <section id="week-calendar">
+      <h2>Planned Workouts for the Week</h2>
+      <div class="calendar-container">
+        <!-- Monday -->
+        <div class="day">
+          <h3>Monday</h3>
+          <p>Workout: Cardio</p>
+          <p>Time: 7:00 AM</p>
+        </div>
+        <!-- Tuesday -->
+        <div class="day">
+          <h3>Tuesday</h3>
+          <p>Workout: Weightlifting</p>
+          <p>Time: 5:00 PM</p>
+        </div>
+        <!-- Wednesday -->
+        <div class="day">
+          <h3>Wednesday</h3>
+          <p>Workout: Yoga</p>
+          <p>Time: 6:30 AM</p>
+        </div>
+        <!-- Thursday -->
+        <div class="day">
+          <h3>Thursday</h3>
+          <p>Workout: Running</p>
+          <p>Time: 6:00 PM</p>
+        </div>
+        <!-- Friday -->
+        <div class="day">
+          <h3>Friday</h3>
+          <p>Workout: Swimming</p>
+          <p>Time: 7:00 AM</p>
+        </div>
+        <!-- Saturday -->
+        <div class="day">
+          <h3>Saturday</h3>
+          <p>Workout: Biking</p>
+          <p>Time: 8:00 AM</p>
+        </div>
+        <!-- Sunday -->
+        <div class="day">
+          <h3>Sunday</h3>
+          <p>Workout: Rest Day</p>
+        </div>
+      </div>
+    </section>
+    <!-- Popup to add a workout -->
+    <button id="openModalBtn">Edit Calendar</button>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Popup Window</h2>
+        <p>This is a simple popup window that isn't a new page.</p>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Workout Planner. All rights reserved.</p>
+      <p>
+        Contact us:
+        <a href="mailto:support@workoutplanner.com"
+          >support@workoutplanner.com</a
+        >
+      </p>
+      <ul>
+        <!-- turn these into icons -->
+        <li><a href="https://www.facebook.com">Facebook</a></li>
+        <li><a href="https://www.twitter.com">Twitter</a></li>
+        <li><a href="https://www.instagram.com">Instagram</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- Turn this into a navigation bar -->
+    <ul>
+      <!-- Put logo as home button -->
+      <li><a href="index.html">Home</a></li>
+      <li><a href="pages/dashboard.html">Dashboard</a></li>
+      <li><a href="pages/create.html">Create a Plan</a></li>
+      <li><a href="pages/stats.html">My Stats</a></li>
+      <li><a href="pages/signup.html">Sign Up</a></li>
+    </ul>
+    <h1>Login</h1>
+
+    <form action="/submit-login" method="POST">
+      <!-- Email or Username -->
+      <label for="email-or-username">Email or Username:</label>
+      <input
+        type="text"
+        id="email-or-username"
+        name="email-or-username"
+        required
+      /><br /><br />
+
+      <!-- Password -->
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+      /><br /><br />
+
+      <!-- Remember Me Checkbox -->
+      <label>
+        <input type="checkbox" name="remember-me" />
+        Remember me </label
+      ><br /><br />
+
+      <!-- Submit Button -->
+      <button type="submit">Login</button>
+
+      <!-- Forgot Password Link -->
+      <p><a href="/forgot-password">Forgot your password?</a></p>
+    </form>
+  </body>
+</html>
